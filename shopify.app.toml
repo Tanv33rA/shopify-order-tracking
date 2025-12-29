@@ -2,7 +2,7 @@
 
 client_id = "5b14fe6713f2cce5f76a5b5c48f41a54"
 name = "Hello App"
-application_url = "https://shopify-order-tracking-production.up.railway.app:3000"
+application_url = "https://shopify-order-tracking-production.up.railway.app"
 embedded = true
 
 [webhooks]
@@ -21,7 +21,7 @@ api_version = "2026-01"
 scopes = "read_orders,read_products,write_orders,write_products"
 
 [auth]
-redirect_urls = [ "https://admin.shopify.com/oauth/install_custom_app?client_id=5b14fe6713f2cce5f76a5b5c48f41a54&no_redirect=true&signature=eyJleHBpcmVzX2F0IjoxNzY3NjIxMjQzLCJwZXJtYW5lbnRfZG9tYWluIjoiYXJyZWhtYW5mcmFncmFuY2VzLm15c2hvcGlmeS5jb20iLCJjbGllbnRfaWQiOiI1YjE0ZmU2NzEzZjJjY2U1Zjc2YTViNWM0OGY0MWE1NCIsInB1cnBvc2UiOiJjdXN0b21fYXBwIiwibWVyY2hhbnRfb3JnYW5pemF0aW9uX2lkIjo1NjIyNTc0N30%3D--ee8b8eee83771aa7f59c8cbfbdad6d0377c34456" ]
+redirect_urls = [ "https://shopify-order-tracking-production.up.railway.app/api/auth" ]
 
 [build]
 automatically_update_urls_on_dev = true
